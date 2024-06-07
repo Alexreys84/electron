@@ -1,5 +1,40 @@
 tutoria electron
 
-1- iniciar um novo projeto node (npm init)
+1) iniciar um novo projeto node (npm init)
 seguir a doc
 instalar o electron (npm install electron --save-dev)
+
+
+2) criar uma estrutura de pastas (modelo de camadas MVC).
+src
+|----views
+        |--- index.html
+|----public
+        |---css
+        |---img
+        |---js
+
+3) presonalização da janela 
+    -dimensoes 
+    -redimensionamento
+    - cor
+    - ícone
+    - menu
+    - barra de título   
+
+4) presonalização do menu
+    template -> da estrutura de dados
+    passo 1: criar o template importa o recurso menu e criar o template
+    passo 2: exibiro o template no lugar do menu original
+ Obs: Alguns recurso precisam ser importados
+ exemplos: Acessar links externos 
+ shell
+ obs: o shell é usado no main para acessar 
+
+
+
+
+
+
+
+
